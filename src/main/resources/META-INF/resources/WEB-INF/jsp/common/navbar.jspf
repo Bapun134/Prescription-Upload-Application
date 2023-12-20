@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+  <div class="container">
+    <a class="navbar-brand text-white" href="/welcome">Home</a>
+    
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-lg-0">
+        <li class="nav-item mx-2">
+          <a class="nav-link active text-white" aria-current="page" href="/upload">Upload</a>
+        </li>
+        
+        <li class="nav-item mx-2">
+          <a class="nav-link text-white" href="/details">Test Details</a>
+        </li>
+        
+        <li class="nav-item mx-2">
+          <a class="nav-link text-white" href="/appointmentDetails">Appointment Details</a>
+        </li>
+      </ul>
+      
+      <span class="navbar-text">
+        <a class="nav-link text-white border border-white px-2" href="/logout">Logout:</a>
+      </span>
+    </div>
+  </div>
+</nav>
